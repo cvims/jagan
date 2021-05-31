@@ -1,0 +1,13 @@
+name: jagan_dataset
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - opencv
+  - matplotlib
+  - pip
+  - pip:
+    - pytube
+
