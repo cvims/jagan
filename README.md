@@ -20,6 +20,9 @@ Note: for this to work, you need the 3 files
 - dataset_csvs/validation_sequences.csv
 - dataset_csvs/test_sequences.csv
 
+Download the files using the latest GitHub Release (data_vX tag).
+Unzip the files and copy the entire *dataset_csvs* folder into
+the folder of the cloned repository (same level as compile_dataset.py).
 In each of these csvs, we have one column that contains the video ID. 
 When running the script, all the IDs are combined into one list of video IDs
 for specified the dataset (i.e., for training, validation or test).
